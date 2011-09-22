@@ -30,4 +30,4 @@ Preguntas
     
 2. Explica cómo diseñaste el método act() de Reloj para que las manecillas funcionaran.
 
-    R= se agrego un .incrementa para que las manecillas comenzaran a incrementarse
+    R= se agrego un .incrementa(); para que las manecillas comenzaran a incrementarse
