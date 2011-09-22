@@ -9,10 +9,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Reloj extends Actor {
 
     private Manecilla _horas;
+    
+    private Manecilla _minutos;
 
     public void addedToWorld(World world) {
-        _horas = new Manecilla(12);
+        _horas = new Manecilla(10);
         world.addObject(_horas, getX(), getY());
+        
+        _minutos = new Manecilla(120);
+        world.addObject(_minutos, getX(), getY());
     }
 
     /**
@@ -20,5 +25,8 @@ public class Reloj extends Actor {
      */
     public void act()
     {
+        _horas .incrementa();
+        
+        _minutos .incrementa();
     }
 }
