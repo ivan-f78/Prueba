@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=limite
+comment0.target=Manecilla(int)
+comment1.params=limite\ valor
+comment1.target=Manecilla(int,\ int)
+comment2.params=
+comment2.target=boolean\ incrementa()
+comment2.text=\n\ Incrementa\ en\ 1\ su\ valor.\n\ @return\ true\ si\ dio\ una\ vuelta\ completa.\n
+numComments=3
