@@ -1,4 +1,4 @@
-Práctica 1
+﻿Práctica 1
 ==========
 
 En ésta práctica diseñaremos e implementaremos un reloj analógico para utilizar objetos y clases.
@@ -26,8 +26,8 @@ Preguntas
 
 1. Por qué al añadir las manecillas desde greenfoot desaparecen después.
 
-    **Respuesta**
+    R= por que al momento de compilar, el compilador revisa lo que hay en los editores, y como se agregaron las manecillas desde greenfoot se borran
     
 2. Explica cómo diseñaste el método act() de Reloj para que las manecillas funcionaran.
 
-    **Respuesta**
+    R= se agrego un .incrementa para que las manecillas comenzaran a incrementarse

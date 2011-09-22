@@ -14,10 +14,10 @@ public class Pared extends World {
     public Pared()
     {
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1024, 640, 1);
+        super(600, 400, 1);
         GreenfootImage background = getBackground();
-        background.setColor(Color.BLUE);
+        background.setColor(Color.BLACK);
         background.fill();
-        addObject(new Reloj(), 512, 320);
+        addObject(new Reloj(), 300, 200);
     }
 }
